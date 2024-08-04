@@ -31,8 +31,6 @@ jobs:
         distribution: 'zulu'
 
     - uses: gradle/actions/setup-gradle@v4
-      with:
-        gradle-home-cache-cleanup: true
 
     - name: Write key
       run: |
