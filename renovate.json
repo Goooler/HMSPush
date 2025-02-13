@@ -1,19 +1,19 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base"
+        "config:recommended"
     ],
     "packageRules": [
         {
             "groupName": "Kotlin",
-            "matchPackagePatterns": [
-                "org.jetbrains.kotlin.*"
+            "matchPackageNames": [
+                "/org.jetbrains.kotlin.*/"
             ]
         },
         {
             "groupName": "AGP",
-            "matchPackagePatterns": [
-                "com.android.*"
+            "matchPackageNames": [
+                "/com.android.*/"
             ]
         }
     ]
